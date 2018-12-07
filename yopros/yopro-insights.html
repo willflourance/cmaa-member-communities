@@ -72,15 +72,16 @@
           </div>
 			<!-- Dropdown to Select Edition-->
 		
-		<div class="pb-5">
+		<div class="my-5">
           <div class="dropdown panel" id="">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Select Edition </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> 
-				<a class="dropdown-item"  data-parent="#accordion" data-toggle="collapse" data-target="#fall-18">Fall 18</a> 
-				<a class="dropdown-item" data-parent="#accordion" data-toggle="collapse" data-target="#summer-18">Summer 18</a> 
+				<a class="dropdown-item" onclick = "showPostFall()">Fall 18</a> 
+				<a class="dropdown-item"  onclick = "showPostSummer()">Summer 18</a> 
 			
-		    </div>
-			        <div id="fall-18" class="panel-collapse collapse">
+		    </div>	
+		 <div class="py-5">
+		 <div id="fall18" class="collapse">
 		<div class="card mb-3 panel-body"> <img class="card-img-top" src="img/banners/Banner_YoPro.jpg" alt="Card image cap">
             <div class="card-body">
               <h3 class="card-title">In The News - FALL 2018</h3>
@@ -142,7 +143,7 @@
             </div>
           </div>
 			</div>
-		 <div id="summer-18" class="panel-collapse collapse" >
+		 <div id="summer18" class="collapse" >
 		<div class="card mb-3 panel-body"> <img class="card-img-top" src="img/banners/Banner_YoPro.jpg" alt="Card image cap">
             <div class="card-body">
               <h3 class="card-title">In The News - SUMMER 2018</h3>
@@ -204,53 +205,12 @@
             </div>
           </div>
 			</div>
+			 </div>
 		
           </div>
 		</div>	
           
-			<div class="container">
-    <div class="row">
-        <div class="col-md-3"></div>
-        <div class="panel-group col-md-6 text-center">
-
-            <div class="text-center" id="accordion">
-                <div class="panel">
-                    <div class="dropdown btn-group">
-                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose a Section
-                            <span class="caret"></span>
-                        </button>
-
-                        <ul class="dropdown-menu">
-                            <li><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Section A</a></li>
-                            <li><a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Section B</a></li>
-                            <li><a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Section C</a></li>
-                        </ul>
-                    </div>
-
-                    <div id="collapse1" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            Text A
-                        </div>
-                    </div>
-
-                    <div id="collapse2" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            Text B
-                        </div>
-                    </div>
-
-                    <div id="collapse3" class="panel-collapse collapse">
-                        <div class="panel-body">
-                            Text C
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3"></div>
-    </div>
-</div>
+			
      
   
 			
@@ -289,18 +249,19 @@
   <!--/.footer--> 
   
 </footer>
-<!-- Bootstrap core JavaScript --> 
+<!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script> 
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
 
 <!-- Plugin JavaScript
                 <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
                 <script src="vendor/scrollreveal/scrollreveal.min.js"></script>  --> 
-<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
+<!--<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> -->
 
 <!-- Custom scripts for this template --> 
-<script src="js/creative.min.js"></script> 
+<script src="js/creative.min.js"></script>
 
+	
 <!-- Menu Toggle Script --> 
 <script>
                 $("#menu-toggle").click(function(e) {
@@ -319,5 +280,19 @@
                     $('html,body').scrollTop(scrollmem);
                   });
                 });</script>
+	<script>
+	function showPostFall() {
+var fall18 = document.getElementById("fall18");
+var summer18 = document.getElementById("summer18");
+fall18.classList.remove("collapse");
+summer18.classList.add("collapse"); 
+};
+
+function showPostSummer() {
+fall18.classList.add("collapse");
+summer18.classList.remove("collapse"); 
+};
+	</script>
+
 </body>
 </html>
