@@ -73,15 +73,15 @@
 			<!-- Dropdown to Select Edition-->
 		
 		<div class="my-5">
-          <div class="dropdown panel" id="">
+          <div class="dropdown panel">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Select Edition </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> 
-				<a class="dropdown-item" onclick = "showPostFall()">Fall 18</a> 
-				<a class="dropdown-item"  onclick = "showPostSummer()">Summer 18</a> 
+				<a class="dropdown-item" onclick="showhide('fall18');">Fall 18</a> 
+				<a class="dropdown-item" onclick="showhide('summer18');">Summer 18</a> 
 			
 		    </div>	
 		 <div class="py-5">
-		 <div id="fall18" class="collapse">
+		 <div id="fall18" class="hide">
 		<div class="card mb-3 panel-body"> <img class="card-img-top" src="img/banners/Banner_YoPro.jpg" alt="Card image cap">
             <div class="card-body">
               <h3 class="card-title">In The News - FALL 2018</h3>
@@ -143,7 +143,7 @@
             </div>
           </div>
 			</div>
-		 <div id="summer18" class="collapse" >
+		 <div id="summer18" class="hide" >
 		<div class="card mb-3 panel-body"> <img class="card-img-top" src="img/banners/Banner_YoPro.jpg" alt="Card image cap">
             <div class="card-body">
               <h3 class="card-title">In The News - SUMMER 2018</h3>
