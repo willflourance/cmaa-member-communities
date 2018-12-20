@@ -1,310 +1,315 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="">
-<meta name="author" content="">
-<title>YoPro Resources - YoPro Insights</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>YoPro Resources - YoPro Insights</title>
 
-<!-- Bootstrap core CSS -->
-<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Custom fonts for this template -->
-<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display:900" rel="stylesheet">
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:900" rel="stylesheet">
 
-<!-- Plugin CSS -->
-<link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-<!-- Custom styles for this template -->
-<link href="css/creative.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/creative.min.css" rel="stylesheet">
 </head>
 
 <body id="page-top" >
 
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
-  <div class="container-fluid"> <a class="navbar-brand js-scroll-trigger" href="#page-top"> <img src="img/logos/logo.gif" width="100px"/> </a>
-    <div class="navbar-toggler-icon" onclick="openNav()"> <img src="img/icons/menu.svg"/></div>
-    <div id="myNav" class="overlay"> <a class="homebtn" href="https://cmaa.org/microsites/member-communities/index.html">&larr; HOME</a> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <div class="overlay-content">
-        <h2><strong>Member Communities</strong></h2>
-        <br>
-        <hr class="light">
-        <br>
-        <a href="https://cmaa.org/microsites/member-communities/wine-society/about.html">Wine Society</a> <a href="https://cmaa.org/microsites/member-communities/yopros/about.html" class="active">YoPros</a> <a href="https://cmaa.org/microsites/member-communities/women-in-club-management/about.html" >Women in Club Management</a> <a href="https://cmaa.org/microsites/member-communities/yacht-club-managers/about.html" >Yacht Club Managers</a> <a href="https://cmaa.org/microsites/member-communities/city-club-managers/about.html"  >City Club Managers</a> <a href="https://cmaa.org/microsites/member-communities/golf-tournament-council/about.html">Golf Tournament Council</a> </div>
-    </div>
-  </div>
-</nav>
-<section> <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> </section>
-<section>
-  <div class="container-fluid">
-    <div class="row text-center">
-      <div class="container"> </div>
-    </div>
-  </div>
-</section>
-<section class="section-margin-top">
-  <div class="container-fluid">
-    <div class="row bg-primary">
-      <nav id="sideNav" class="col-lg-3 col-md-4 col-sm-4 my-5"> <br>
-        <button id="dropdown-button" class="btn " type="button" data-toggle="collapse" data-target="#side-nav">Categories<span class="fa fa-caret-down"></span> </button>
-        <div class="collapse show" id="side-nav">
-          <div ><a href="about.html"  >About </a> </div>
-          <div><a class="active" data-toggle="collapse" data-target="#resources" > Resources </a></div>
-          <div class="side-nav-sub" id="resources"> <a class ="active" href="yopro-insights.html" >YoPro Insights </a><br>
-          </div>
-          <div ><a data-toggle="collapse" data-target="#events" >Events </a> </div>
-          <div class=" collapse side-nav-sub" id="events"> <a href="calendar.html">YoPro Calendar </a><br>
-          </div>
-        </div>
-      </nav>
-      <div class="tab-content bg-light col-lg-9 col-md-8 col-sm-12" >
-        <div class="container-fluid tab-pane fade show in active" >
-          <div class="my-5">
-            <h5 class="section-heading"><br>
-              <br>
-              YoPro Insights
-              <hr align="left" class="my-5">
-            </h5>
-          </div>
-			<!-- Dropdown to Select Edition-->
-		
-		<div class="my-5">
-          <div class="dropdown panel">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Select Edition </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> 
-				<a class="dropdown-item" onclick="showhide('fall18');">Fall 18</a> 
-				<a class="dropdown-item" onclick="showhide('summer18');">Summer 18</a> 
-			
-		    </div>	
-		 <div class="py-5 newsletter">
-		 <div id="fall18" class="hide">
-		<div class="card mb-3 panel-body"> <img class="card-img-top" src="img/banners/Banner_YoPro.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h3 class="card-title">In The News - FALL 2018</h3>
-              <h5 class="card-title insights">A Study of 600,000 People Shows the Secret to Managing Millennials Is to Quit Thinking of Them as Millennials</h5>
-              <p class="card-text">I just did a Google search for "manage Millennials." I got 28 million results. That's total overkill, especially since a recent study published in the Journal of Managerial Psychology shows there are much greater attitude and behavior differences within generations than between generations.</p>
-              <p class="card-text"><small class="text-muted"><a href="https://www.inc.com/jeff-haden/a-study-of-600000-people-shows-secret-to-managing-millennials-is-to-quit-thinking-of-them-as-millennials.html">Read More </a></small></p>
-              <h5 class="card-title insights">Measuring Member Sentiment Through Net Promoter Scoring </h5>
-              <p class="card-text">Member conversations about a club can happen anywhere. Compelling stories can be shared that promote the advantages of membership and benefits of belonging. Unfortunately, the opposite occurs when members detract from the positive image of the club by pontificating on a negative experience they had. Member sentiment towards a club can have compounding effects that can drive sustainability or stifle growth. When club experiences align with member expectations, membership loyalty is inevitable</p>
-              <p class="card-text"><small class="text-muted"><a href="https://www.linkedin.com/pulse/measuring-member-sentiment-through-net-promoter-scoring-p-mazur/">Read More </a></small></p>
-              <h5 class="card-title insights">Why We’re Looking at Millennials All Wrong </h5>
-              <p class="card-text">American labor recently celebrated a return to its lowest unemployment mark since 1969. While positive for the labor force, this also means that supply chain leaders are in intense competition for historically scarce talent. In the recent Team of Tomorrow survey, 82 percent of supply chain leaders were somewhat or very concerned about the ability to attract top talent, 75 percent about talent retention, and 76 percent on succession planning and leadership development.</p>
-              <p class="card-text"><small class="text-muted"><a href="http://www.scmworld.com/looking-millennials-wrong/">Read More </a></small></p>
-              <h5 class="card-title insights">Almost Two in Three People with Money Troubles Can’t Sleep at Night, Study Reveals </h5>
-              <p class="card-text">Sleeplessness and financial worries are having a harmful effect on well-being and work life for many, with millennials worst hit.</p>
-              <p class="card-text"><small class="text-muted"><a href="https://thriveglobal.com/stories/almost-2-in-3-with-money-troubles-can-t-sleep-at-night-study-reveals/">Read More </a></small></p>
-              <h5 class="card-title insights">In It to Win It: Five Ways Your Country Club Can Beat Topgolf </h5>
-              <p class="card-text">Topgolf has taken golf from stuffy to casual-cool. With zero pressure on your performance (or who you are), players flock to the new age driving range for many reasons. Whether they’re serious golf athletes who want to perfect their swing, or a group of friends looking for a new social activity on the weekends, you’ll find them all under the <strong><a href="https://topgolf.com/us/">Topgolf net</a></strong>. What’s even more alluring is that there’s no pressure to play a lengthy game - you can play for as short as 30 minutes. There’s also the entire fact that you have a dedicated server at your bay to take your orders, and the drinks are usually flowing.</p>
-              <p class="card-text"><small class="text-muted"><a href="https://blog.clubessential.com/in-it-to-win-it-5-ways-your-country-club-can-beat-topgolf">Read More </a></small></p>
-              <h5 class="card-title insights">How Pop-up Events Increase Member Engagement </h5>
-              <p class="card-text">Clubs are always on the hunt for ways to enhance their social atmosphere. New menus, new programs, new events—Club leaders are constantly brainstorming new ways to keep members engaged in the club to ensure they remain relevant in their daily lives.</p>
-              <p class="card-text"><small class="text-muted"><a href="https://www.chambersusa.com/benefits-of-pop-up-events/">Read More </a></small></p>
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">YoPro Did You Know? </h3>
-              <div class="text-center m-3"><img src="img/yopro-insights/ScottHamilton.jpg" class="img-fluid float-md-right" alt="Scott Hamilton Headshot"/></div>
-              <p><strong>Scott Hamilton</strong> will be speaking at the Awards Breakfast at World Conference! Come prepared and read his book, <em>Finish First</em>, before attending!</p>
-              <p>In his years as a professional ice-skater, Olympic Gold Medalist Scott Hamilton learned to embrace the mind-set of working hard to &ldquo;beat&rdquo; the competition. But it seems competition has gotten a bad rap these days. We&rsquo;ve bought into the belief that it is unfair to participants to rank performance. Yet competition is in fact a good thing because it&rsquo;s about working toward excellence.</p>
-              <p><a href="https://www.amazon.com/Finish-First-Winning-Changes-Everything/dp/0785216561/ref=sr_1_1?ie=UTF8&qid=1541772911&sr=8-1&keywords=Finish+first"><strong><em>Finish First</em></strong></a> is a wake-up call for business leaders, entrepreneurs, spouses, parents, and even students to stop settling for mediocre and begin to revitalize their intrinsic will to achieve excellence and go for the win. Most of us feel we were made for something more, but we&rsquo;re often afraid to allow ourselves to be competitive because we think our finishing first might somehow rob others of their chance to shine. This book encourages the hidden potential, the champion within all of us, to come out&mdash;which eventually brings our family, marriage, career, business, and the world around us the greatest possible good.</p>
-              <p>See Hamilton at the <strong>Awards Breakfast on Tuesday, February 26, at 8:00 a.m.</strong> Tickets are available at <a href="https://www.cmaa.org/conference/"><strong>www.cmaa.org/conference</strong></a>.</p>
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">Social Outings and Adventures </h3>
-              <h5>City of New York YoPros Take Target Practice </h5>
-              <p class="card-text">In August, YoPros from the City of New York Chapter took an outing to Tiro A Segno, the oldest Italian heritage organization in the United States, for a fun filled night of comradery, cocktails, and friendly competition! Attendees networked over cocktails and Italian-inspired specialties, while enjoying club amenities including the ultra-exclusive, members-only gun range. One of NYC’s best-kept secrets, the gun range provided YoPros with an education on firearm safety and proper shooting technique, while also creating an outlet for stress release and friendly competition amongst peers. Managers took individual lessons from range instructors, while practicing on a wide array of targets. A lively competition for best shot ensured, with several managers earning bullseyes, and the title of “top shot.” </p>
-              <div class="text-center"> <img src="img/yopro-insights/CMNYC_YoPro.jpg" class="img-fluid" alt="CMNYC YoPro Group Photo"/></div>
-              <div class="row mt-4">
-                <div class="col-md-6">
-                  <h5 class="card-title"> Idea Fair </h5>
-                  <p> <strong><a href="https://www.cmaa.org/IdeaFairEntry.aspx?id=2593">Holiday To-Go Curbside Service</a></strong> – <strong>Alexandra Sarris</strong>, <br>
-                    Congressional Country Club </p>
-                </div>
-                <div class="col-md-6">
-                  <h5 class="card-title">Linkedin Discussion</h5>
-                  <p><strong><a href="https://www.linkedin.com/feed/update/urn:li:activity:6466662644089704449/"> What thoughts do you have on working or collaborating with different personalities? </a></strong></p>
-                </div>
-              </div>
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">Calendar</h3>
-              <p class="card-text"><a href="http://www.carolinascmaa.org/club/scripts/calendar/view_club_calendarItem.asp?CID=2767187&amp;src=&amp;GRP=32909&amp;NS=EV"><strong>Carolinas Chapter Piedmont Region Meeting</strong></a><strong> &ndash; November 27</strong><br>
-                Women in Leadership with Brenda Wensil</p>
-              <p><strong>Young Professionals Networking Event at the CMAA 2019 World Conference and Club Business Expo<br />
-                Monday, February 25, 6:00 &ndash; 8:30 p.m.</strong></p>
-              <p class="card-text">Join your other 40 and under friends for a fun evening of problem solving at The Escape Game! Participants will split into groups for one hour each to strategize their way through rooms via a series of puzzles and riddles, using various clues and hints. After your game, check out one of the local restaurants with your new-found friends for a bite to eat! <a href="https://cmaa.org/conference/index.html#pricing"><strong>Register now</strong></a>.</p>
-              <p><strong>Service Event and School Supply Drive for PENCIL, Presented by the CMAA YoPros<br />
-                Tuesday, February 26, 2019, 9:30 a.m. &ndash; 3:30 p.m.&nbsp;<br />
-                Wednesday, February 27, 2019, 9:30 a.m. &ndash; 1:00 p.m.</strong></p>
-              <p>CMAA YoPros will be collecting donations of school supplies for <strong>PENCIL</strong>, a local organization that provides community resources to Metro Nashville Public Schools. The supplies collected during this drive will then be made available to local teachers for use in their classes, at no cost to them, allowing them to meet the educational needs of their students. While this initiative is sponsored by the CMAA YoPros, all Conference attendees are asked to consider donating to this cause. Collection bins will be set up in the Club Business Expo hall and near the Member Services Pavilion.</p>
-            </div>
-          </div>
-			</div>
-		 <div id="summer18" class="hide" >
-		<div class="card mb-3 panel-body"> <img class="card-img-top" src="img/banners/Banner_YoPro.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h3 class="card-title">In The News - SUMMER 2018</h3>
-              <h5 class="card-title insights">Uncovering the Millennial Mindset: Choice Hotels Reveals New Travel Study </h5>
-              <p class="card-text">The millennial generation has arrived, and hotels are grabbing for their loyalty. Choice Hotels International, Inc. (NYSE: CHH), one of the world's leading hotel companies, reveals the top ten unexpected travel habits of millennial adventurers in their latest study.</p>
-              <p class="card-text"><small class="text-muted"><a href="https://www.hospitalitynet.org/news/4072208.html">Read More </a></small></p>
-              <h5 class="card-title insights">Job Growth Is Rising. Hospitality Unemployment Is Decreasing. What’s the Answer? </h5>
-              <p class="card-text">The hospitality industry is booming, creating more jobs, but many of those jobs go unfilled. How can you compete for the best hospitality managers in such a tight talent market? Are there creative recruiting strategies you can employ to identify and attract top hospitality candidates? Let’s look at what we’re dealing with.</p>
-              <p class="card-text"><small class="text-muted"><a href="https://www.linkedin.com/pulse/job-growth-rising-hospitality-unemployment-decreasing-scott-samuels/">Read More </a></small></p>
-              <h5 class="card-title insights">How to View Customers, Your Most Important Assets </h5>
-              <p class="card-text">People are the reason we are in business. No matter how much technology we own, it is about rounds, and the experience we create each day for people, our members and guests. At the same time, we hire to build a solid staff, a team that will work together and hopefully be together for a long time. It seems that no matter how good the economy is, and how many people are employed, this industry called golf continues to be a hard business.</p>
-              <p class="card-text"><small class="text-muted"><a href="http://golfincmagazine.com/blog/how-view-customers-your-most-important-assets">Read More </a></small></p>
-              <h5 class="card-title insights">Why It's Important to Be All in with Your Staff </h5>
-              <p class="card-text">Everything moves so fast in business today. We are asked to make decisions on marketing, purchasing, and people as if the right decisions are on the tip of our brains ready to move us to high-speed success. No matter the day, there are issues that turn a once planned day, into a map filled with crooked roads and even more crooked decisions.</p>
-              <p class="card-text"><small class="text-muted"><a href="http://golfincmagazine.com/blog/why-its-important-be-all-your-staff">Read More </a></small></p>
-<p class="card-text"><small class="text-muted"></small></p>
-</div>
-            <div class="card-body bg-light">
-              <h3 class="card-title">YoPro Did You Know? </h3>
-              <p>CMAA’s YoPros have their own <strong><a>LinkedIn group</a>.</strong> This space is designed for you to engage in meaningful conversations with your peers, ask questions, and receive feedback. Join today and start the conversation! </p>
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">Social Outings and Adventures </h3>
-              <h5>New Jersey Chapter YoPros Test Their Lumberjack Skills </h5>
-			 	<div class="text-center">
-					<img src="img/yopro-insights/NJCMA.jpg" alt="NJCMA Lumberjack Outing" class="img-fluid m-2 float-md-left" width="200px"/> 
-				</div>
-              <p class="card-text">In August, YoPros from the City of New York Chapter took an outing to Tiro A Segno, the oldest Italian heritage organization in the United States, for a fun filled night of comradery, cocktails, and friendly competition! Attendees networked over cocktails and Italian-inspired specialties, while enjoying club amenities including the ultra-exclusive, members-only gun range. One of NYC’s best-kept secrets, the gun range provided YoPros with an education on firearm safety and proper shooting technique, while also creating an outlet for stress release and friendly competition amongst peers. Managers took individual lessons from range instructors, while practicing on a wide array of targets. A lively competition for best shot ensured, with several managers earning bullseyes, and the title of “top shot.” </p>
-              <h5>Carolinas YoPros Play Footgolf in Charlotte </h5>
-				<div class="text-center"> 
-				<img src="img/yopro-insights/footgolf.jpg" alt="Carolina YoPros Play Footgolf" class="img-fluid m-2 float-md-right" width="200px"/> 
-				</div>
-				
-              <p class="card-text">On July 9, following a regional butchery focused education, the Carolinas YoPros took to the golf course to conquer it from a whole new perspective! Twelve YoPros stepped up to the Nine-Hole Footgolf Challenge held at Myers Park Country Club. Each participant had their own soccer ball, and tees were set up in the fairway to shorten the length of the course. The course was undergoing aeration and greens maintenance that week, so instead of cutting large holes in the greens, the club opted to use orange construction fencing and used wooden dowel rods to create a net to secure in the fairway. </p><p class="card-text">The local favorite Olde Mecklenburg Brewery donated several cases of beer to help “hydrate” the players, and the YoPros were off to overcome the course in two groups of six. Scorecards with pars were provided, but the game was played for fun more than anything. The course provided a whole new set of challenges with Footgolf, but it was an overall success for the day.
-
-</p>
-              <div class="row mt-4">
-                <div class="col-md-6">
-                  <h5 class="card-title"> Idea Fair </h5>
-               <p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTUW3vhlCF4Kp2bdEpRFZW5EDQLqFMeoqiu5dfRd0dpvWDV__2Z44CWU-JYBXfMZuzCckAkiXGz0MD8KPq7KxrDT-b_Maj4M1o2HdnXimqAopisgEGRmndxKZg2hKexCXr98fb_KNiV4dKh-o1l87LyD4V3bSQX8YyQ==&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>Maxwell&rsquo;s: A Pop-Up Holiday Speakeasy<br /></strong></a>Lia Moretti, Oklahoma Golf &amp; Country Club<br />Winner: Category 17, Beverage Concept</p>
-                </div>
-                <div class="col-md-6">
-                  <h5 class="card-title">Linkedin Discussion</h5>
-                 <p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTVwW-D-1ckntCxPSNQziYsXWPimgXSPju69qLFSl70gpcEJQxuM0e7S98rHvVwMYLK-PtYex3fqihCRNJviSIofDQCKMkYuYLuRcWZiGEjI0HBdaqY3xSMbB9wNrf-6vMwVt-IvdWoOD&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>Check out</strong></a> how some of CMAA's #YoPros have transformed one of Massachusetts oldest clubs.</p>
-                </div>
-              </div>
-            </div>
-            <div class="card-body">
-              <h3 class="card-title">Calendar</h3>
-              <p><strong>Summer Education, Greenville, SC &ndash; August 13</strong><br /> Disney Institute: Disney&rsquo;s Approach to Customer Service &ndash; This of course is open to all Carolinas Chapter Members, but we have encouraged Managers to send some of their YoPros to this highly beneficial program.</p>
-<p><strong>Carolinas Chapter Coastal-Capital Region Meeting &ndash; August 28</strong></p>
-<p><strong>Carolinas Chapter Upstate-Mountain Region Meeting &ndash; August 28</strong></p>
-<p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTW9kxZiG9Z0UBcob3WpQH8rqxGyqsAVm3aO0RnYLokdIT8Ot9OXSK06Z1N16gBOSqRrh_ZUcCMKVxMB-O6rnxd-9oZevSm1XzBnQr5ONCNJ4V-srJ42jMvH8tukmZUsVfJADhvqsupAihsrC7lOhEdTccNXofUJFGQ==&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>Sally Burns Rambo Scholarship</strong></a><strong> &ndash; September 1</strong></p>
-<p>A scholarship for female club managers interested in furthering their professional development.</p>
-<p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTVyITXd3x10jW4Dv_FXZOyoC7G9FwUXFHQhKdPrQ6ehm8O5ndV7evulb-y1VyxMtMyiWMPhVXWgFs7Del_KaUdJXSVxeHhJiO8ZBq8Z5KoljBgyVZpfNcWqySd0SsFnB-BTyOWn_6KuJSa2G73pOTpgqoQurehry2A==&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>James B. Singerling Scholarship</strong></a><strong> &ndash; September 1</strong></p>
-<p>A professional development scholarship for club industry professionals who have never attended World Conference.</p>
-<p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTUW3vhlCF4KpyJPQzYdhshPBuAuEH8VEWWOSe1WV1I09_TBNCd5qQP9nfkEwHG9Vt0i0GzFwo9IH4EPCXrUnvtMn5acKf5IGpAFpk1kyehC_AAX-ANvcyGB_4AZZtr451pNVzW0FTAxkRvpFkcTSEiwkGqQ4TyIA-W65n9gDNk8OFA0u12Rtrb9GAgtySxZ6-EawnOFKSTQR3o1FsRbOxXUs2-iaZ3SwpGx_gSFvO55CUsjW3sOoifwER-csjmSb5j7OoWztxkxu&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>Carolinas Chapter Piedmont Region Meeting</strong></a><strong>&ndash; September 10</strong></p>
-<p>Farm to Table at Lucky Leaf Gardens</p>
-<p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTZUtsl_Dt5dfSnuxrgfbdOFdyE8gD4i10fdPCVjeBrI5fyyc2ca2WZD7NhoQvoz2vSiByB106JDL5QECXtj3y-L7mkgN1VflIH6msV7jh0aQUH0HQmqu_zS6nWEdxEHyOt-kujuqBWEBLrpu76bysyUHJRFvanbCQQ==&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>Willmoore H. Kendall Scholarship</strong></a><strong> (due to Chapter) &ndash; October 1</strong></p>
-<p>A scholarship for assistant club managers pursuing the Certified Club Manager (CCM) designation.</p>
-<p><strong>Carolinas Fall Conference, Charleston, SC &ndash; October 14-15</strong></p>
-<p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTUW3vhlCF4KpdaQhDrGg6NHaA4-ZGJFzKP9tjjczCgJpEwH59fubpfPqr7Vptc57OIycPJ4A94u6v2a2tPrTf689PlFEItjBXNuMtC9gBWhbkNwFSP3-G8ZUjTkLkwlF9dNiyve-c_dgHJw2zAmBrlP7ILNAwZUiGpSyywcVXXAWifB_d_-rf6nQFoGe8MEXQxpFYZ4-8Rm30RhbmjHqG775S5uADJJRwRFkw98F2Ig9Swn8gZ_MbYZzcHvqQuJ33QMYfe_1HgQx&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>Carolinas Chapter Piedmont Region Meeting</strong></a><strong> &ndash; October 22</strong></p>
-<p>The Inner Workings of a Brewery at Olde Mecklenburg Brewery</p>
-<p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTZUtsl_Dt5dfSnuxrgfbdOFdyE8gD4i10fdPCVjeBrI5fyyc2ca2WZD7NhoQvoz2vSiByB106JDL5QECXtj3y-L7mkgN1VflIH6msV7jh0aQUH0HQmqu_zS6nWEdxEHyOt-kujuqBWEBLrpu76bysyUHJRFvanbCQQ==&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>Willmoore H. Kendall Scholarship</strong></a><strong> (due to The Club Foundation) &ndash; November 1</strong></p>
-<p>Deadline for the Chapters to submit all Kendall Scholarship applications to The Club Foundation.</p>
-<p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTSwLJHXQrUpvany3BazmDPY5MPsGg3Gi5Ud_yL0bd07TOEy16bjngpjs5ahbT2yNTKEukJQp_PNbp1RG6o3-K3k2IXO8T4NTyg2J7drmm0PQl2p_FGaWGMyOojbU3RZejDQDpv7JIx6RZC-wlB_9h3U0_7corfMaHw==&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>LaRocca Family Executive Scholarship</strong></a><strong> &ndash; November 1</strong></p>
-<p>A two-part scholarship for seasoned leaders in the club industry who take an active role in mentoring and a separate scholarship for their mentees as well.</p>
-<p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTUW3vhlCF4KpiV4Gawo_IHOPEHqVXEMCuZ8wvPWdmuFGh92ZsEFptRwyOm7PToq9PPDfHzltfmB5f3oxSdVeXhYC8pi--cErJ03a3gglp5RAuvqUU90_STZ6A05MHm7oB6_Io2EeS-F5OebZHZ2z-c4ZZQQayKRIXUuY73oby8PaVpqOqlymJxKdkQITPJgsv3R1TDlGAG6579TOtD8w4EqfrtYOV2UrL_PBD0XLBoH4k2iYMD1WjqmQ36PAq_aP3ZsQas7XrZOV&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>Carolinas Chapter Piedmont Region Meeting</strong></a><strong> &ndash; November 27</strong></p>
-<p>Women in Leadership with Brenda Wensil</p>
-
-            </div>
-          </div>
-			</div>
-			 </div>
-		
-          </div>
-		</div>	
-          
-			
-     
-  
-			
-        
-		  </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Footer -->
-<footer class="row no-margin">
-  <div class="bg-dark text-white col-sm-12 col-xs-12 col-xl-12 col-md-12 col-lg-12" id="footer">
-    <div>
-      <div class="row">
-        <div class=" col-sm-4 col-xs-4 col-md-8 col-lg-8 col-xl-3"> <img src="img/logos/cmaa-logo-wordmark-@2x.png" width="230px" class="img-fluid" align="left"/> <br>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-shrink" id="mainNav">
+    <div class="container-fluid"> <a class="navbar-brand js-scroll-trigger" href="#page-top"> <img src="img/logos/logo.gif" width="100px"/> </a>
+      <div class="navbar-toggler-icon" onclick="openNav()"> <img src="img/icons/menu.svg"/></div>
+      <div id="myNav" class="overlay"> <a class="homebtn" href="https://cmaa.org/microsites/member-communities/index.html">&larr; HOME</a> <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <h2><strong>Member Communities</strong></h2>
           <br>
-          <p></p>
-        </div>
-        <div class="col-lg-4  col-md-4 col-sm-4 col-xs-4 offset-xl-5">
-          <h3> Contact</h3>
-          <hr align="left">
-          <p><strong> Club Management Association of America</strong><br>
-            1733 King Street<br>
-            Alexandria, VA 22314<br>
-            703-739-9500<br>
-            <strong></strong><br>
-          </p>
+          <hr class="light">
+          <br>
+          <a href="https://cmaa.org/microsites/member-communities/wine-society/about.html">Wine Society</a> <a href="https://cmaa.org/microsites/member-communities/yopros/about.html" class="active">YoPros</a> <a href="https://cmaa.org/microsites/member-communities/women-in-club-management/about.html" >Women in Club Management</a> <a href="https://cmaa.org/microsites/member-communities/yacht-club-managers/about.html" >Yacht Club Managers</a> <a href="https://cmaa.org/microsites/member-communities/city-club-managers/about.html"  >City Club Managers</a> <a href="https://cmaa.org/microsites/member-communities/golf-tournament-council/about.html">Golf Tournament Council</a> </div>
         </div>
       </div>
-      
-      <!--/.row--> 
+    </nav>
+    <section> <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> </section>
+    <section>
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="container"> </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-margin-top">
+      <div class="container-fluid">
+        <div class="row bg-primary">
+          <nav id="sideNav" class="col-lg-3 col-md-4 col-sm-4 my-5"> <br>
+            <button id="dropdown-button" class="btn " type="button" data-toggle="collapse" data-target="#side-nav">Categories<span class="fa fa-caret-down"></span> </button>
+            <div class="collapse show" id="side-nav">
+              <div ><a href="about.html"  >About </a> </div>
+              <div><a class="active" data-toggle="collapse" data-target="#resources" > Resources </a></div>
+              <div class="side-nav-sub" id="resources"> <a class ="active" href="yopro-insights.html" >YoPro Insights </a><br>
+              </div>
+              <div ><a data-toggle="collapse" data-target="#events" >Events </a> </div>
+              <div class=" collapse side-nav-sub" id="events"> <a href="calendar.html">YoPro Calendar </a><br>
+              </div>
+            </div>
+          </nav>
+          <div class="tab-content bg-light col-lg-9 col-md-8 col-sm-12" >
+            <div class="container-fluid tab-pane fade show in active" >
+              <div class="my-5">
+                <h5 class="section-heading"><br>
+                  <br>
+                  YoPro Insights
+                  <hr align="left" class="my-5">
+                </h5>
+              </div>
+
+
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Fall 2018</a>
+                      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Summer 2018</a>
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="tab-content" id="v-pills-tabContent">
+                      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"><div class="card mb-3 panel-body"> <img class="card-img-top" src="img/banners/Banner_YoPro.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h3 class="card-title">In The News - FALL 2018</h3>
+                          <h5 class="card-title insights">A Study of 600,000 People Shows the Secret to Managing Millennials Is to Quit Thinking of Them as Millennials</h5>
+                          <p class="card-text">I just did a Google search for "manage Millennials." I got 28 million results. That's total overkill, especially since a recent study published in the Journal of Managerial Psychology shows there are much greater attitude and behavior differences within generations than between generations.</p>
+                          <p class="card-text"><small class="text-muted"><a href="https://www.inc.com/jeff-haden/a-study-of-600000-people-shows-secret-to-managing-millennials-is-to-quit-thinking-of-them-as-millennials.html">Read More </a></small></p>
+                          <h5 class="card-title insights">Measuring Member Sentiment Through Net Promoter Scoring </h5>
+                          <p class="card-text">Member conversations about a club can happen anywhere. Compelling stories can be shared that promote the advantages of membership and benefits of belonging. Unfortunately, the opposite occurs when members detract from the positive image of the club by pontificating on a negative experience they had. Member sentiment towards a club can have compounding effects that can drive sustainability or stifle growth. When club experiences align with member expectations, membership loyalty is inevitable</p>
+                          <p class="card-text"><small class="text-muted"><a href="https://www.linkedin.com/pulse/measuring-member-sentiment-through-net-promoter-scoring-p-mazur/">Read More </a></small></p>
+                          <h5 class="card-title insights">Why We’re Looking at Millennials All Wrong </h5>
+                          <p class="card-text">American labor recently celebrated a return to its lowest unemployment mark since 1969. While positive for the labor force, this also means that supply chain leaders are in intense competition for historically scarce talent. In the recent Team of Tomorrow survey, 82 percent of supply chain leaders were somewhat or very concerned about the ability to attract top talent, 75 percent about talent retention, and 76 percent on succession planning and leadership development.</p>
+                          <p class="card-text"><small class="text-muted"><a href="http://www.scmworld.com/looking-millennials-wrong/">Read More </a></small></p>
+                          <h5 class="card-title insights">Almost Two in Three People with Money Troubles Can’t Sleep at Night, Study Reveals </h5>
+                          <p class="card-text">Sleeplessness and financial worries are having a harmful effect on well-being and work life for many, with millennials worst hit.</p>
+                          <p class="card-text"><small class="text-muted"><a href="https://thriveglobal.com/stories/almost-2-in-3-with-money-troubles-can-t-sleep-at-night-study-reveals/">Read More </a></small></p>
+                          <h5 class="card-title insights">In It to Win It: Five Ways Your Country Club Can Beat Topgolf </h5>
+                          <p class="card-text">Topgolf has taken golf from stuffy to casual-cool. With zero pressure on your performance (or who you are), players flock to the new age driving range for many reasons. Whether they’re serious golf athletes who want to perfect their swing, or a group of friends looking for a new social activity on the weekends, you’ll find them all under the <strong><a href="https://topgolf.com/us/">Topgolf net</a></strong>. What’s even more alluring is that there’s no pressure to play a lengthy game - you can play for as short as 30 minutes. There’s also the entire fact that you have a dedicated server at your bay to take your orders, and the drinks are usually flowing.</p>
+                          <p class="card-text"><small class="text-muted"><a href="https://blog.clubessential.com/in-it-to-win-it-5-ways-your-country-club-can-beat-topgolf">Read More </a></small></p>
+                          <h5 class="card-title insights">How Pop-up Events Increase Member Engagement </h5>
+                          <p class="card-text">Clubs are always on the hunt for ways to enhance their social atmosphere. New menus, new programs, new events—Club leaders are constantly brainstorming new ways to keep members engaged in the club to ensure they remain relevant in their daily lives.</p>
+                          <p class="card-text"><small class="text-muted"><a href="https://www.chambersusa.com/benefits-of-pop-up-events/">Read More </a></small></p>
+                        </div>
+                        <div class="card-body">
+                          <h3 class="card-title">YoPro Did You Know? </h3>
+                          <div class="text-center m-3"><img src="img/yopro-insights/ScottHamilton.jpg" class="img-fluid float-md-right" alt="Scott Hamilton Headshot"/></div>
+                          <p><strong>Scott Hamilton</strong> will be speaking at the Awards Breakfast at World Conference! Come prepared and read his book, <em>Finish First</em>, before attending!</p>
+                          <p>In his years as a professional ice-skater, Olympic Gold Medalist Scott Hamilton learned to embrace the mind-set of working hard to &ldquo;beat&rdquo; the competition. But it seems competition has gotten a bad rap these days. We&rsquo;ve bought into the belief that it is unfair to participants to rank performance. Yet competition is in fact a good thing because it&rsquo;s about working toward excellence.</p>
+                          <p><a href="https://www.amazon.com/Finish-First-Winning-Changes-Everything/dp/0785216561/ref=sr_1_1?ie=UTF8&qid=1541772911&sr=8-1&keywords=Finish+first"><strong><em>Finish First</em></strong></a> is a wake-up call for business leaders, entrepreneurs, spouses, parents, and even students to stop settling for mediocre and begin to revitalize their intrinsic will to achieve excellence and go for the win. Most of us feel we were made for something more, but we&rsquo;re often afraid to allow ourselves to be competitive because we think our finishing first might somehow rob others of their chance to shine. This book encourages the hidden potential, the champion within all of us, to come out&mdash;which eventually brings our family, marriage, career, business, and the world around us the greatest possible good.</p>
+                          <p>See Hamilton at the <strong>Awards Breakfast on Tuesday, February 26, at 8:00 a.m.</strong> Tickets are available at <a href="https://www.cmaa.org/conference/"><strong>www.cmaa.org/conference</strong></a>.</p>
+                        </div>
+                        <div class="card-body">
+                          <h3 class="card-title">Social Outings and Adventures </h3>
+                          <h5>City of New York YoPros Take Target Practice </h5>
+                          <p class="card-text">In August, YoPros from the City of New York Chapter took an outing to Tiro A Segno, the oldest Italian heritage organization in the United States, for a fun filled night of comradery, cocktails, and friendly competition! Attendees networked over cocktails and Italian-inspired specialties, while enjoying club amenities including the ultra-exclusive, members-only gun range. One of NYC’s best-kept secrets, the gun range provided YoPros with an education on firearm safety and proper shooting technique, while also creating an outlet for stress release and friendly competition amongst peers. Managers took individual lessons from range instructors, while practicing on a wide array of targets. A lively competition for best shot ensured, with several managers earning bullseyes, and the title of “top shot.” </p>
+                          <div class="text-center"> <img src="img/yopro-insights/CMNYC_YoPro.jpg" class="img-fluid" alt="CMNYC YoPro Group Photo"/></div>
+                          <div class="row mt-4">
+                            <div class="col-md-6">
+                              <h5 class="card-title"> Idea Fair </h5>
+                              <p> <strong><a href="https://www.cmaa.org/IdeaFairEntry.aspx?id=2593">Holiday To-Go Curbside Service</a></strong> – <strong>Alexandra Sarris</strong>, <br>
+                                Congressional Country Club </p>
+                              </div>
+                              <div class="col-md-6">
+                                <h5 class="card-title">Linkedin Discussion</h5>
+                                <p><strong><a href="https://www.linkedin.com/feed/update/urn:li:activity:6466662644089704449/"> What thoughts do you have on working or collaborating with different personalities? </a></strong></p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card-body">
+                            <h3 class="card-title">Calendar</h3>
+                            <p class="card-text"><a href="http://www.carolinascmaa.org/club/scripts/calendar/view_club_calendarItem.asp?CID=2767187&amp;src=&amp;GRP=32909&amp;NS=EV"><strong>Carolinas Chapter Piedmont Region Meeting</strong></a><strong> &ndash; November 27</strong><br>
+                              Women in Leadership with Brenda Wensil</p>
+                              <p><strong>Young Professionals Networking Event at the CMAA 2019 World Conference and Club Business Expo<br />
+                                Monday, February 25, 6:00 &ndash; 8:30 p.m.</strong></p>
+                                <p class="card-text">Join your other 40 and under friends for a fun evening of problem solving at The Escape Game! Participants will split into groups for one hour each to strategize their way through rooms via a series of puzzles and riddles, using various clues and hints. After your game, check out one of the local restaurants with your new-found friends for a bite to eat! <a href="https://cmaa.org/conference/index.html#pricing"><strong>Register now</strong></a>.</p>
+                                <p><strong>Service Event and School Supply Drive for PENCIL, Presented by the CMAA YoPros<br />
+                                  Tuesday, February 26, 2019, 9:30 a.m. &ndash; 3:30 p.m.&nbsp;<br />
+                                  Wednesday, February 27, 2019, 9:30 a.m. &ndash; 1:00 p.m.</strong></p>
+                                  <p>CMAA YoPros will be collecting donations of school supplies for <strong>PENCIL</strong>, a local organization that provides community resources to Metro Nashville Public Schools. The supplies collected during this drive will then be made available to local teachers for use in their classes, at no cost to them, allowing them to meet the educational needs of their students. While this initiative is sponsored by the CMAA YoPros, all Conference attendees are asked to consider donating to this cause. Collection bins will be set up in the Club Business Expo hall and near the Member Services Pavilion.</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">          <div class="card mb-3 panel-body"> <img class="card-img-top" src="img/banners/Banner_YoPro.jpg" alt="Card image cap">
+                                        <div class="card-body">
+                                          <h3 class="card-title">In The News - SUMMER 2018</h3>
+                                          <h5 class="card-title insights">Uncovering the Millennial Mindset: Choice Hotels Reveals New Travel Study </h5>
+                                          <p class="card-text">The millennial generation has arrived, and hotels are grabbing for their loyalty. Choice Hotels International, Inc. (NYSE: CHH), one of the world's leading hotel companies, reveals the top ten unexpected travel habits of millennial adventurers in their latest study.</p>
+                                          <p class="card-text"><small class="text-muted"><a href="https://www.hospitalitynet.org/news/4072208.html">Read More </a></small></p>
+                                          <h5 class="card-title insights">Job Growth Is Rising. Hospitality Unemployment Is Decreasing. What’s the Answer? </h5>
+                                          <p class="card-text">The hospitality industry is booming, creating more jobs, but many of those jobs go unfilled. How can you compete for the best hospitality managers in such a tight talent market? Are there creative recruiting strategies you can employ to identify and attract top hospitality candidates? Let’s look at what we’re dealing with.</p>
+                                          <p class="card-text"><small class="text-muted"><a href="https://www.linkedin.com/pulse/job-growth-rising-hospitality-unemployment-decreasing-scott-samuels/">Read More </a></small></p>
+                                          <h5 class="card-title insights">How to View Customers, Your Most Important Assets </h5>
+                                          <p class="card-text">People are the reason we are in business. No matter how much technology we own, it is about rounds, and the experience we create each day for people, our members and guests. At the same time, we hire to build a solid staff, a team that will work together and hopefully be together for a long time. It seems that no matter how good the economy is, and how many people are employed, this industry called golf continues to be a hard business.</p>
+                                          <p class="card-text"><small class="text-muted"><a href="http://golfincmagazine.com/blog/how-view-customers-your-most-important-assets">Read More </a></small></p>
+                                          <h5 class="card-title insights">Why It's Important to Be All in with Your Staff </h5>
+                                          <p class="card-text">Everything moves so fast in business today. We are asked to make decisions on marketing, purchasing, and people as if the right decisions are on the tip of our brains ready to move us to high-speed success. No matter the day, there are issues that turn a once planned day, into a map filled with crooked roads and even more crooked decisions.</p>
+                                          <p class="card-text"><small class="text-muted"><a href="http://golfincmagazine.com/blog/why-its-important-be-all-your-staff">Read More </a></small></p>
+                                        </div>
+                                        <div class="card-body bg-light">
+                                          <h3 class="card-title">YoPro Did You Know? </h3>
+                                          <p>CMAA’s YoPros have their own <strong><a>LinkedIn group</a>.</strong> This space is designed for you to engage in meaningful conversations with your peers, ask questions, and receive feedback. Join today and start the conversation! </p>
+                                        </div>
+                                        <div class="card-body">
+                                          <h3 class="card-title">Social Outings and Adventures </h3>
+                                          <h5>New Jersey Chapter YoPros Test Their Lumberjack Skills </h5>
+                                          <div class="text-center">
+                                            <img src="img/yopro-insights/NJCMA.jpg" alt="NJCMA Lumberjack Outing" class="img-fluid m-2 float-md-left" width="200px"/>
+                                          </div>
+                                          <p class="card-text">In August, YoPros from the City of New York Chapter took an outing to Tiro A Segno, the oldest Italian heritage organization in the United States, for a fun filled night of comradery, cocktails, and friendly competition! Attendees networked over cocktails and Italian-inspired specialties, while enjoying club amenities including the ultra-exclusive, members-only gun range. One of NYC’s best-kept secrets, the gun range provided YoPros with an education on firearm safety and proper shooting technique, while also creating an outlet for stress release and friendly competition amongst peers. Managers took individual lessons from range instructors, while practicing on a wide array of targets. A lively competition for best shot ensured, with several managers earning bullseyes, and the title of “top shot.” </p>
+                                          <h5>Carolinas YoPros Play Footgolf in Charlotte </h5>
+                                          <div class="text-center">
+                                            <img src="img/yopro-insights/footgolf.jpg" alt="Carolina YoPros Play Footgolf" class="img-fluid m-2 float-md-right" width="200px"/>
+                                          </div>
+
+                                          <p class="card-text">On July 9, following a regional butchery focused education, the Carolinas YoPros took to the golf course to conquer it from a whole new perspective! Twelve YoPros stepped up to the Nine-Hole Footgolf Challenge held at Myers Park Country Club. Each participant had their own soccer ball, and tees were set up in the fairway to shorten the length of the course. The course was undergoing aeration and greens maintenance that week, so instead of cutting large holes in the greens, the club opted to use orange construction fencing and used wooden dowel rods to create a net to secure in the fairway. </p><p class="card-text">The local favorite Olde Mecklenburg Brewery donated several cases of beer to help “hydrate” the players, and the YoPros were off to overcome the course in two groups of six. Scorecards with pars were provided, but the game was played for fun more than anything. The course provided a whole new set of challenges with Footgolf, but it was an overall success for the day.
+
+                                          </p>
+                                          <div class="row mt-4">
+                                            <div class="col-md-6">
+                                              <h5 class="card-title"> Idea Fair </h5>
+                                              <p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTUW3vhlCF4Kp2bdEpRFZW5EDQLqFMeoqiu5dfRd0dpvWDV__2Z44CWU-JYBXfMZuzCckAkiXGz0MD8KPq7KxrDT-b_Maj4M1o2HdnXimqAopisgEGRmndxKZg2hKexCXr98fb_KNiV4dKh-o1l87LyD4V3bSQX8YyQ==&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>Maxwell&rsquo;s: A Pop-Up Holiday Speakeasy<br /></strong></a>Lia Moretti, Oklahoma Golf &amp; Country Club<br />Winner: Category 17, Beverage Concept</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                              <h5 class="card-title">Linkedin Discussion</h5>
+                                              <p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTVwW-D-1ckntCxPSNQziYsXWPimgXSPju69qLFSl70gpcEJQxuM0e7S98rHvVwMYLK-PtYex3fqihCRNJviSIofDQCKMkYuYLuRcWZiGEjI0HBdaqY3xSMbB9wNrf-6vMwVt-IvdWoOD&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>Check out</strong></a> how some of CMAA's #YoPros have transformed one of Massachusetts oldest clubs.</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="card-body">
+                                          <h3 class="card-title">Calendar</h3>
+                                          <p><strong>Summer Education, Greenville, SC &ndash; August 13</strong><br /> Disney Institute: Disney&rsquo;s Approach to Customer Service &ndash; This of course is open to all Carolinas Chapter Members, but we have encouraged Managers to send some of their YoPros to this highly beneficial program.</p>
+                                          <p><strong>Carolinas Chapter Coastal-Capital Region Meeting &ndash; August 28</strong></p>
+                                          <p><strong>Carolinas Chapter Upstate-Mountain Region Meeting &ndash; August 28</strong></p>
+                                          <p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTW9kxZiG9Z0UBcob3WpQH8rqxGyqsAVm3aO0RnYLokdIT8Ot9OXSK06Z1N16gBOSqRrh_ZUcCMKVxMB-O6rnxd-9oZevSm1XzBnQr5ONCNJ4V-srJ42jMvH8tukmZUsVfJADhvqsupAihsrC7lOhEdTccNXofUJFGQ==&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>Sally Burns Rambo Scholarship</strong></a><strong> &ndash; September 1</strong></p>
+                                          <p>A scholarship for female club managers interested in furthering their professional development.</p>
+                                          <p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTVyITXd3x10jW4Dv_FXZOyoC7G9FwUXFHQhKdPrQ6ehm8O5ndV7evulb-y1VyxMtMyiWMPhVXWgFs7Del_KaUdJXSVxeHhJiO8ZBq8Z5KoljBgyVZpfNcWqySd0SsFnB-BTyOWn_6KuJSa2G73pOTpgqoQurehry2A==&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>James B. Singerling Scholarship</strong></a><strong> &ndash; September 1</strong></p>
+                                          <p>A professional development scholarship for club industry professionals who have never attended World Conference.</p>
+                                          <p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTUW3vhlCF4KpyJPQzYdhshPBuAuEH8VEWWOSe1WV1I09_TBNCd5qQP9nfkEwHG9Vt0i0GzFwo9IH4EPCXrUnvtMn5acKf5IGpAFpk1kyehC_AAX-ANvcyGB_4AZZtr451pNVzW0FTAxkRvpFkcTSEiwkGqQ4TyIA-W65n9gDNk8OFA0u12Rtrb9GAgtySxZ6-EawnOFKSTQR3o1FsRbOxXUs2-iaZ3SwpGx_gSFvO55CUsjW3sOoifwER-csjmSb5j7OoWztxkxu&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>Carolinas Chapter Piedmont Region Meeting</strong></a><strong>&ndash; September 10</strong></p>
+                                          <p>Farm to Table at Lucky Leaf Gardens</p>
+                                          <p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTZUtsl_Dt5dfSnuxrgfbdOFdyE8gD4i10fdPCVjeBrI5fyyc2ca2WZD7NhoQvoz2vSiByB106JDL5QECXtj3y-L7mkgN1VflIH6msV7jh0aQUH0HQmqu_zS6nWEdxEHyOt-kujuqBWEBLrpu76bysyUHJRFvanbCQQ==&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>Willmoore H. Kendall Scholarship</strong></a><strong> (due to Chapter) &ndash; October 1</strong></p>
+                                          <p>A scholarship for assistant club managers pursuing the Certified Club Manager (CCM) designation.</p>
+                                          <p><strong>Carolinas Fall Conference, Charleston, SC &ndash; October 14-15</strong></p>
+                                          <p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTUW3vhlCF4KpdaQhDrGg6NHaA4-ZGJFzKP9tjjczCgJpEwH59fubpfPqr7Vptc57OIycPJ4A94u6v2a2tPrTf689PlFEItjBXNuMtC9gBWhbkNwFSP3-G8ZUjTkLkwlF9dNiyve-c_dgHJw2zAmBrlP7ILNAwZUiGpSyywcVXXAWifB_d_-rf6nQFoGe8MEXQxpFYZ4-8Rm30RhbmjHqG775S5uADJJRwRFkw98F2Ig9Swn8gZ_MbYZzcHvqQuJ33QMYfe_1HgQx&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>Carolinas Chapter Piedmont Region Meeting</strong></a><strong> &ndash; October 22</strong></p>
+                                          <p>The Inner Workings of a Brewery at Olde Mecklenburg Brewery</p>
+                                          <p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTZUtsl_Dt5dfSnuxrgfbdOFdyE8gD4i10fdPCVjeBrI5fyyc2ca2WZD7NhoQvoz2vSiByB106JDL5QECXtj3y-L7mkgN1VflIH6msV7jh0aQUH0HQmqu_zS6nWEdxEHyOt-kujuqBWEBLrpu76bysyUHJRFvanbCQQ==&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>Willmoore H. Kendall Scholarship</strong></a><strong> (due to The Club Foundation) &ndash; November 1</strong></p>
+                                          <p>Deadline for the Chapters to submit all Kendall Scholarship applications to The Club Foundation.</p>
+                                          <p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTSwLJHXQrUpvany3BazmDPY5MPsGg3Gi5Ud_yL0bd07TOEy16bjngpjs5ahbT2yNTKEukJQp_PNbp1RG6o3-K3k2IXO8T4NTyg2J7drmm0PQl2p_FGaWGMyOojbU3RZejDQDpv7JIx6RZC-wlB_9h3U0_7corfMaHw==&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>LaRocca Family Executive Scholarship</strong></a><strong> &ndash; November 1</strong></p>
+                                          <p>A two-part scholarship for seasoned leaders in the club industry who take an active role in mentoring and a separate scholarship for their mentees as well.</p>
+                                          <p><a href="http://r20.rs6.net/tn.jsp?f=001SejJ0ihAMcjinb_ifdV7mD3ljSC_imY8XizhJZjDzI9glczRB44HTUW3vhlCF4KpiV4Gawo_IHOPEHqVXEMCuZ8wvPWdmuFGh92ZsEFptRwyOm7PToq9PPDfHzltfmB5f3oxSdVeXhYC8pi--cErJ03a3gglp5RAuvqUU90_STZ6A05MHm7oB6_Io2EeS-F5OebZHZ2z-c4ZZQQayKRIXUuY73oby8PaVpqOqlymJxKdkQITPJgsv3R1TDlGAG6579TOtD8w4EqfrtYOV2UrL_PBD0XLBoH4k2iYMD1WjqmQ36PAq_aP3ZsQas7XrZOV&amp;c=A-YJEzj134RSpcmi1KcJ0CAAVv_BlmVMGZDWOn_NOC_7mia-_iGkbA==&amp;ch=fJbfY-9ikFYlaz5nu_yT1CuDEfUws-U5qHSd61OOkeRF4L2xlS11Gw=="><strong>Carolinas Chapter Piedmont Region Meeting</strong></a><strong> &ndash; November 27</strong></p>
+                                          <p>Women in Leadership with Brenda Wensil</p>
+
+                                        </div>
+                                      </div>
+                                    </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+
+
+
+
+
+          </div>
+        </div>
+      </div>
     </div>
-    <!--/.container--> 
-  </div>
-  <!--/.footer--> 
-  
-</footer>
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script> 
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+  </section>
 
-<!-- Plugin JavaScript
-                <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-                <script src="vendor/scrollreveal/scrollreveal.min.js"></script>  --> 
-<!--<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> -->
+  <!-- Footer -->
+  <footer class="row no-margin">
+    <div class="bg-dark text-white col-sm-12 col-xs-12 col-xl-12 col-md-12 col-lg-12" id="footer">
+      <div>
+        <div class="row">
+          <div class=" col-sm-4 col-xs-4 col-md-8 col-lg-8 col-xl-3"> <img src="img/logos/cmaa-logo-wordmark-@2x.png" width="230px" class="img-fluid" align="left"/> <br>
+            <br>
+            <p></p>
+          </div>
+          <div class="col-lg-4  col-md-4 col-sm-4 col-xs-4 offset-xl-5">
+            <h3> Contact</h3>
+            <hr align="left">
+            <p><strong> Club Management Association of America</strong><br>
+              1733 King Street<br>
+              Alexandria, VA 22314<br>
+              703-739-9500<br>
+              <strong></strong><br>
+            </p>
+          </div>
+        </div>
 
-<!-- Custom scripts for this template --> 
-<script src="js/creative.min.js"></script>
+        <!--/.row-->
+      </div>
+      <!--/.container-->
+    </div>
+    <!--/.footer-->
 
-	
-<!-- Menu Toggle Script --> 
-<script>
-                $("#menu-toggle").click(function(e) {
-                  e.preventDefault();
-                  $("#wrapper").toggleClass("toggled");
-                });
-                </script> 
-<script>$(function(){
-                  var hash = window.location.hash;
-                  hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+  </footer>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-                  $('.nav-tabs a').click(function (e) {
-                    $(this).tab('show');
-                    var scrollmem = $('body').scrollTop();
-                    window.location.hash = this.hash;
-                    $('html,body').scrollTop(scrollmem);
-                  });
-                });</script>
-	<script>
-	function showPostFall() {
-var fall18 = document.getElementById("fall18");
-var summer18 = document.getElementById("summer18");
-fall18.classList.remove("collapse");
-summer18.classList.add("collapse"); 
-};
+  <!-- Plugin JavaScript
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>  -->
+  <!--<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> -->
 
-function showPostSummer() {
-fall18.classList.add("collapse");
-summer18.classList.remove("collapse"); 
-};
-	</script>
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
+
+
+  <!-- Menu Toggle Script -->
+  <script>
+  $("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+  });
+  </script>
+  <script>$(function(){
+    var hash = window.location.hash;
+    hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+
+    $('.nav-tabs a').click(function (e) {
+      $(this).tab('show');
+      var scrollmem = $('body').scrollTop();
+      window.location.hash = this.hash;
+      $('html,body').scrollTop(scrollmem);
+    });
+  });</script>
+  <script>
+  function showPostFall() {
+    var fall18 = document.getElementById("fall18");
+    var summer18 = document.getElementById("summer18");
+    fall18.classList.remove("collapse");
+    summer18.classList.add("collapse");
+  };
+
+  function showPostSummer() {
+    fall18.classList.add("collapse");
+    summer18.classList.remove("collapse");
+  };
+  </script>
 
 </body>
 </html>
