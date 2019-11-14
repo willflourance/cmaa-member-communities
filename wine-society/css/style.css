@@ -1,0 +1,33 @@
+/*!
+ * Start Bootstrap - Creative v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
+ */
+
+body{
+  font-family: 'Lato', sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+ .article-heading{
+   font-style: normal;
+   font-weight: bolder;
+
+ }
+
+hr{
+  margin-left: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
